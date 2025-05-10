@@ -254,13 +254,12 @@ address {
   padding: 120px 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .section-advantages {
     padding: 96px 16px;
   }
 
   .advantages-list {
-    display: flex;
     flex-direction: column;
     gap: 72px;
   }
@@ -276,11 +275,10 @@ address {
   }
 
   .advantages-list {
-    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 72px;
+    gap: 24px;
   }
 
   .advantage-item {
