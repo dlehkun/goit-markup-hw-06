@@ -250,8 +250,71 @@ address {
   background-color: #404bbf;
 }
 
-.section-advantages {
-  padding: 120px 0;
+@media only screen and (min-width: 1158px) {
+  .section-advantages {
+    padding: 120px 0;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .our-advantages {
+    display: block;
+  }
+
+  .advantages-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+  }
+
+  .advantage-item {
+    display: block;
+    width: calc((100% - 72px) / 4);
+  }
+
+  .icon-wrap {
+    width: 264px;
+    background-color: #f4f4fd;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .logo-advantage {
+    fill: #2e2f42;
+  }
+
+  .advantages-list .name-advantages {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .name-advantages {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .advantages-list .explain-advantages {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -290,7 +353,7 @@ address {
   }
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -349,7 +412,7 @@ address {
 .advantages-list .explain-advantages {
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 
 .member-section {
   background-color: #f4f4fd;
