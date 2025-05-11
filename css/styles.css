@@ -323,6 +323,7 @@ address {
   }
 
   .advantages-list {
+    list-style-type: none;
     flex-direction: column;
     gap: 72px;
   }
@@ -338,6 +339,7 @@ address {
   }
 
   .advantages-list {
+    list-style-type: none;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -345,7 +347,7 @@ address {
   }
 
   .advantage-item {
-    max-width: 326px;
+    max-width: 228px;
   }
 
   .explain-advantages {
