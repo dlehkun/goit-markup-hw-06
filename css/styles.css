@@ -317,7 +317,7 @@ address {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .section-advantages {
     padding: 96px 16px;
   }
@@ -509,7 +509,7 @@ address {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .member-section {
     background-color: #f4f4fd;
     display: block;
