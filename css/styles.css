@@ -1002,6 +1002,9 @@ address {
   .page-bottom {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    padding: 0 16px;
   }
 
   .logo-link-bottom {
@@ -1039,7 +1042,7 @@ address {
   }
 
   .container-link-text {
-    margin: 0 16px 72px 16px;
+    margin-bottom: 72px;
   }
 
   .footer-media {
@@ -1165,7 +1168,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-left: 72px;
+    text-align: center;
   }
 }
 
@@ -1211,10 +1214,15 @@ address {
   .page-bottom {
     display: flex;
     align-items: baseline;
+    max-width: 768px;
+    flex-wrap: wrap;
+    gap: 74px 24px;
+    margin-left: 108px;
   }
 
   .container-link-text {
-    margin-right: 120px;
+    /* margin-right: 120px;
+    margin-bottom: 72px; */
   }
 
   .footer-media {
